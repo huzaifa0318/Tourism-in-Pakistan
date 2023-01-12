@@ -1,0 +1,138 @@
+.container {
+    min-height: 300px;
+    max-height: 600px;
+   background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
+  
+  .box {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+   
+  
+  }
+  
+  .box1 {
+  text-color: black;
+   
+    border-top-right-radius: 12px;
+  }
+  
+  .box2 {
+    background-color: orange;
+    border-radius: 25px;
+  }
+  
+  .box3 {
+    background-color: olive;
+  
+  }
+  
+  .box4 {
+    background-color: salmon;
+    box-shadow: 5px -5px 10px rgb(165, 63, 63);
+  }
+  
+  .box_img {
+    height: 200px;
+    width: 200px;
+   
+  }
+  h5 {
+    color: white;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    color: white;
+    margin: 0px;
+  }
+
+
+
+
+
+
+
+
+
+
+Flex.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Flex.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Our Tour Packages</h1>
+      <div class="container">
+        <div class="box box1">
+          <img src="images/Sindh.jfif" class="box_img" alt="Hospital" />
+          <h5>Explore Sindh</h5>
+          <p>Sind is one of the historical divison of Pakistan. just click and Explore.</p>
+        </div>
+
+        <div class="box box2">
+          <img src="images/moenjodaro.jpeg" class="box_img" alt="Hospital" />
+          <h5>Heading</h5>
+          <p>Box 2</p>
+        </div>
+
+        <div class="box box3">
+          <img src="images/moenjodaro.jpeg" class="box_img" alt="Hospital" />
+          <h5>Heading</h5>
+          <p>Box 3</p>
+        </div>
+
+        <div class="box box4">
+          <img src="images/moenjodaro.jpeg" class="box_img" alt="Hospital" />
+          <h5>Heading</h5>
+          <p>Box 4</p>
+        </div>
+
+        <div class="box box1">
+          <img src="images/moenjodaro.jpeg" class="box_img" alt="Hospital" />
+          <h5>Heading</h5>
+          <p>Box 1</p>
+        </div>
+
+        <div class="box box2">
+          <img src="images/moenjodaro.jpeg" class="box_img" alt="Hospital" />
+          <h5>Heading</h5>
+          <p>Box 2</p>
+        </div>
+
+        <div class="box box3">
+          <img src="images/moenjodaro.jpeg" class="box_img" alt="Hospital" />
+          <h5>Heading</h5>
+          <p>Box 3</p>
+        </div>
+
+        <div class="box box4">
+          <img src="images/moenjodaro.jpeg" class="box_img" alt="Hospital" />
+          <h5>Heading</h5>
+          <p>Box 4</p>
+        </div>
+
+      </div>
+    </div>
+    <h1>Heading dowwards</h1>
+  </body>
+</html>

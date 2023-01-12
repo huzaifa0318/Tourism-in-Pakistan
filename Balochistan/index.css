@@ -5,3 +5,8 @@ h1{
     color: lavender;
     size: 50px;
 }
+li > a{
+    text-decoration: none;
+    color: white;
+    list-style-type: circle;
+}

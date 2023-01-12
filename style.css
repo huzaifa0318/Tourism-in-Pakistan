@@ -1,0 +1,146 @@
+.tout_parent{
+  justify-content: space-between;
+
+}
+body{
+    
+}
+.packages_heading{
+    text-decoration:underline;
+    text-align: center;
+    color: grey;
+}
+.container {
+    min-height: 400px;
+   
+   background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+   
+    
+    
+  }
+  
+  .box {
+    height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+   margin-left: 90px;
+    border-radius: 10px;
+   margin-top: 30px; 
+  }
+  .box1 {
+    height: 300px;
+  width: 250px;
+  
+ 
+  overflow: hidden;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin: 3px 5px;
+  position: relative;
+      
+    }
+    .box2 {
+      height: 300px;
+  width: 250px;
+  margin-bottom: 20px;
+ 
+  overflow: hidden;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin: 3px 5px;
+  position: relative;
+    }
+    
+    .box3 {
+   
+      height: 310px;
+      width: 250px;
+      margin-bottom: 20px;
+     
+      overflow: hidden;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      margin: 3px 5px;
+      position: relative;
+    
+    }
+    
+    .box4 {
+      height: 300px;
+      width: 250px;
+      margin-bottom: 20px;
+     
+      overflow: hidden;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      margin: 3px 5px;
+      position: relative;
+    }
+    
+    .box_img {
+      height: 200px;
+      width: 260px;
+     
+      
+    }
+    
+
+    
+    
+  h5 {
+    color: white;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    color:black;
+    margin: 0px;
+    text-justify: inter-ideograph;
+    padding-left: 2px;
+  }
+  
+    .round_button{
+        height: 10px;
+        width: 10px;
+        border-radius: 100%;
+        background-color: green;
+        border: black;
+        align-self: start;
+    }
+    .aButton{
+        height: 20px;
+    width: 110px;
+    padding-left: 2px;
+    margin-left: 5px;
+    
+      }
+      .karachi_heart{
+        background-color: #fff;
+        box-shadow: 1px 1px 1px #ccc;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 100;;
+       
+
+      }
+      
+        
+    

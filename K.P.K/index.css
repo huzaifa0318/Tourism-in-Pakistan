@@ -1,5 +1,5 @@
 h1{
-    color: rgb(95, 96, 160);
+    color: lavender;
 }
 body{
     background-color:gray;
@@ -7,4 +7,8 @@ body{
 button{
     color: peru;
 }
-
+li > a{
+    text-decoration: none;
+    color: white;
+    list-style-type: circle;
+}
